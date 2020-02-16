@@ -1,0 +1,33 @@
+{
+  "name": "dtl",
+  "version": "0.1.0",
+  "description": "Material UI React Unide Component Pack",
+  "repository": "https://github.com/mjvesa/dtl",
+  "main": "src/uco.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "npm-run-all --parallel start watch",
+    "start": "serve public",
+    "test": "jest"
+  },
+  "author": "Matti Vesa",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/lab": "^4.0.0-alpha.40",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.16.2",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-replace": "^2.3.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-terser": "^5.0.0",
+    "serve": "^11.0.2"
+  }
+}
